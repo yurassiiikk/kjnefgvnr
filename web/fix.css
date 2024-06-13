@@ -1,0 +1,26 @@
+@media (max-width: 961px) {
+  .fix--h1 {
+    text-align: right !important;
+  }
+}
+
+.goat {
+  font: 72px/72px D-DIN-Bold, Arial, Verdana, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.expanded {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+
+@media (max-width: 960px) {
+  .goat {
+    font: 48px/48px D-DIN-Bold, Arial, Verdana, sans-serif;
+  }
+}
+
